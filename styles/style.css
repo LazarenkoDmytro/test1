@@ -1,0 +1,193 @@
+body {
+    background: url("../images/solar-system.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.image {
+    position: absolute;
+    z-index: 1;
+}
+
+.video {
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    width: 85%;
+    left: 7.5%
+}
+
+.header {
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    margin: 0 0 0 0;
+    left: 43%;
+    width: 22.5%;
+    font-size: 350%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: deepskyblue;
+    background-color: black;
+}
+
+.leftText {
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    margin: 0 0 0 0;
+    width: 25%;
+    height: 100%;
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: beige;
+    background-color: black;
+}
+
+.rightText {
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    margin: 0 0 0 0;
+    left: 75%;
+    width: 25%;
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: beige;
+    background-color: black;
+}
+
+.firstInstruction {
+    position: absolute;
+    margin: 0 0 0 0;
+    left: 35%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: deepskyblue;
+    z-index: 1;
+}
+
+.secondInstruction {
+    position: absolute;
+    margin: 0 0 0 0;
+    z-index: 3;
+    opacity: 0;
+    left: 39%;
+    top: 93%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.mercuryImage {
+    top: 64.35%;
+    left: 17.55%;
+    width: 2.6%;
+}
+
+.mercuryImage:hover {
+    top: 63.47%;
+    left: 17.07%;
+    width: 3.6%;
+}
+
+.venusImage {
+    top: 56.57%;
+    left: 24%;
+    width: 3.79%;
+}
+
+.venusImage:hover {
+    top: 56%;
+    left: 23.6%;
+    width: 4.79%;
+}
+
+.earthImage {
+    top: 47.6%;
+    left: 30.9%;
+    width: 4.35%;
+}
+
+.earthImage:hover {
+    top: 46.8%;
+    left: 30.5%;
+    width: 5.35%;
+}
+
+.marsImage {
+    top: 38.74%;
+    left: 36.44%;
+    width: 3.25%;
+}
+
+.marsImage:hover {
+    top: 38%;
+    left: 36%;
+    width: 4.25%;
+}
+
+.jupiterImage {
+    top: 35.55%;
+    left: 45.8%;
+    width: 9.77%;
+}
+
+.jupiterImage:hover {
+    top: 34.9%;
+    left: 45.3%;
+    width: 10.77%;
+}
+
+.saturnImage {
+    top: 22.9%;
+    left: 52.4%;
+    width: 21%;
+}
+
+.saturnImage:hover {
+    top: 22.4%;
+    left: 51.9%;
+    width: 22%;
+}
+
+.uranusImage {
+    top: 14.44%;
+    left: 69.49%;
+    width: 7.22%;
+}
+
+.uranusImage:hover {
+    top: 13.7%;
+    left: 69.05%;
+    width: 8.22%;
+}
+
+.neptuneImage {
+    top: 6.8%;
+    left: 78.42%;
+    width: 5.52%;
+}
+
+.neptuneImage:hover {
+    top: 6.1%;
+    left: 78%;
+    width: 6.52%;
+}
+
+.plutoImage {
+    top: 2.7%;
+    left: 86.4%;
+    width: 1.7%;
+}
+
+.plutoImage:hover {
+    top: 2%;
+    left: 86%;
+    width: 2.7%;
+}
